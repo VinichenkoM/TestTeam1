@@ -1,0 +1,145 @@
+/*
+*{
+ text-shadow: 0.5px 0.5px 3px rgb(85, 85, 85);   
+}
+*/
+.Maboutus{
+    width: 100%;
+    background-color: #f8f8f8;
+}
+.MH2aboutus{
+    font-size: 20px;
+    padding-top: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(85, 85, 85);
+    font-weight:bold;
+}
+.MLowLine{
+    width: 50px;
+    height: 0;    
+    border: 1px solid;
+    margin: 30px auto;
+}
+.MLorem{
+    font-family: 'Roboto Slab', serif;
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    color: rgb(85, 85, 85);
+    font-size: 16px;
+    min-width: 270px;
+}
+.M2stories{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 50px 230px;
+    justify-content: space-around;
+}
+.Mstory{
+    font-family: 'Roboto Slab', serif;
+/*    width: calc(50% - 40px);*/
+    width: 45%;
+    text-align: justify;
+    color: rgb(85, 85, 85);
+    margin: 25px;
+    font-size: 14px;
+    min-width: 270px;
+}
+.MOneFoto{
+    width: 270px;
+    height: 310px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    
+}
+.Mface{
+    vertical-align: top;
+    width: 270px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.MworkerName{
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(85, 85, 85);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+.MworkerJob{
+    text-align: center;
+    color: rgb(85, 85, 85);
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+}
+.Maboutusfotos{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 50px 230px;
+    justify-content: space-around;
+}
+.M2fotos{
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: space-around;
+    min-width: 270px;
+}
+.Mlastworks{
+    width: 100%;
+}
+.Mpic{
+    width: 360px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 10px 5px;
+    min-width: 270px;
+}
+.Mmenu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    margin: auto;
+}
+li {
+    list-style-type: none;
+    margin: 0 15px;
+   }
+a{
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+}
+.MMenuconteiner{
+    margin: 20px 230px;
+}
+.Mredcube{
+    background-color: #c0301c;
+    opacity: 0;
+    z-index: 100;
+    width: 100%;
+    height: 320px;
+}
+.Mpic:hover .Mredcube{
+    opacity: 0.7;
+}
+.Mgreycube{
+    background-color: #555555;
+    opacity: 0;
+    z-index: 100;
+    width: 100%;
+    height: 250px;
+}
+.Mface:hover .Mgreycube{
+    opacity: 0.5;
+}
+.Mmenu a:hover{
+    color: #ebbeb8;
+}
