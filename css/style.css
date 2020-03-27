@@ -282,3 +282,169 @@ a{
     color: #ebbeb8;
 }
 
+.forma{
+    width: 100%;
+}
+.forma h2.OGetInTouch{
+    font-size: 20px;
+    padding-top: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(85, 85, 85);
+    font-weight:bold;
+}
+.forma .OFormContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1383px;
+    margin: 50px auto;
+}
+.forma .OFormContainer .OContactsInfo {
+    width: 35%;
+
+}
+.forma .OFormContainer .OContactsInfo .info{
+     display: block;
+     width: 255px;
+     margin-top: 10px    ;
+     margin-left: 25px;
+     margin-bottom: 40px;
+}
+
+.forma .OFormContainer .OContactsInfo img{
+    padding-top: 5px;
+}
+
+.forma .OFormContainer .OContactsInfo .info-one-h {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(85, 85, 85);
+    font-weight:bold;
+    text-transform: uppercase;
+    padding-left: 21px;
+}
+
+.forma .OFormContainer .OContactsInfo .info-one{
+    padding-left: 35px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(85, 85, 85);
+}
+
+.forma .OFormContainer .OUserInputs{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.forma .OFormContainer .OUserInputs .Orow{
+    width: 100%;
+    display: flex;
+    flex: 1 1 auto;
+
+}
+
+input[type=text]{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    width: 350px;
+    height: 45px;
+    margin: 10px 50px;
+    padding-left: 18px;
+    border: 1px solid rgb(85, 85, 85);
+}
+
+input[type=email]{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    width: 350px;
+    height: 45px;
+    margin: 10px 50px;
+    padding-left: 18px;
+    border: 1px solid rgb(85, 85, 85);
+}
+
+input:focus{
+    border: 1px solid red;
+}
+
+textarea:focus{
+    border: 1px solid red;
+}
+
+textarea{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    width: 89%;
+    height: 105px;
+    padding-left: 18px;
+    padding-top: 15px;
+    margin: 10px auto;
+    resize: none;
+}
+
+button[type=button]{
+    background-color: #fff;
+    width: 170px;
+    height: 45px;
+    border: 1px solid rgb(85, 85, 85);
+    margin: 10px 50px;
+}
+
+.forma .OFormContainer .OUserInputs .Orow .info-span{
+
+    margin: 25px 0px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(85, 85, 85);
+}
+
+.forma .OFormContainer .OUserInputs .Orow .info-span .red-star{
+    padding: 3px;
+    color: red;
+}
+
+.forma .OFormContainer .OUserInputs .Orow .button:hover{
+    color: red;
+    border: 1px solid red;
+}
+
+footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 307px;
+    background-color: #c0301c;
+}
+
+footer .OImageContainer{
+    margin: 20px auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+footer .OImageContainer img{
+   width: 34px;
+   height: 34px;
+}
+
+footer .OCopyrightext{
+    margin: 10px auto;
+    text-align: center;
+}
+
+footer  .OLowLineW{
+    width: 50px;
+    height: 0;
+    border: 1px solid white;
+    margin: 30px auto;
+}
+
+footer .OCopyrightext span{
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
